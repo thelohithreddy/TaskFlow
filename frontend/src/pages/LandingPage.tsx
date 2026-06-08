@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { HeroDashboardPreview } from '../components/landing/HeroDashboardPreview';
 
 export const LandingPage = () => (
   <div className="landing">
@@ -20,17 +21,7 @@ export const LandingPage = () => (
         </div>
       </div>
       <div className="hero-visual">
-        <div className="hero-mockup">
-          <div className="mockup-bar" />
-          <div className="mockup-content">
-            <div className="mockup-stat" />
-            <div className="mockup-stat" />
-            <div className="mockup-stat" />
-            <div className="mockup-task" />
-            <div className="mockup-task" />
-            <div className="mockup-task" />
-          </div>
-        </div>
+        <HeroDashboardPreview />
       </div>
     </section>
 
